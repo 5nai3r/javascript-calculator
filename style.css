@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #ecf0f1;
+}
+#app{
+  height: 460px;
+  width: 300px;
+  font-size: 0;
+  margin: 150px auto;
+}
+#app .input{
+  width: 100%;
+  background: #95a5a6;
+  color:#fff;
+  height: 50px;
+  border: 0;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: right;
+}
+#app #input{position: relative;}
+#app #input span{
+  font-size: 35px;
+  position: absolute;
+  color:#c0392b;
+  left: 5px;
+  cursor: pointer;
+}
+#app .result{
+  width: 100%;
+  background: #95a5a6;
+  color:#fff;
+  height: 30px;
+  border: 0;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: left;
+}
+.btn {
+  font-size: 25px;
+  text-align: center;
+  line-height: 75px;
+  background: #34495e;
+  width: 75px;
+  height: 75px;
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+  color:#fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #2c3e50;
+}
