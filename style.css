@@ -4,9 +4,16 @@
 }
 body{
   background: #ecf0f1;
+  font-family: sans-serif;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #app{
-  height: 460px;
+  height: 350px;
   width: 300px;
   font-size: 0;
   margin: 150px auto;
@@ -22,13 +29,22 @@ body{
   text-align: right;
 }
 #app #input{position: relative;}
-#app #input span{
-  font-size: 35px;
+#app #input .clear{
+  font-size: 25px;
   position: absolute;
-  color:#c0392b;
+  line-height: 50px;
+  color:#fff;
   left: 5px;
   cursor: pointer;
+  transition: all 0.5s;
+  background-color:#95a5a6;
+  padding-right: 6px;
 }
+#app #input .clear.animated{
+  padding-left: 270px;
+
+}
+
 #app .result{
   width: 100%;
   background: #95a5a6;
@@ -51,7 +67,13 @@ body{
   padding: 0;
   color:#fff;
   cursor: pointer;
+  transition: box-shadow 0.3s;
 }
 .btn:hover {
   background: #2c3e50;
+}
+
+.btn:active {
+  -webkit-box-shadow:inset 0 0 20px 0 #1B2630;
+  box-shadow:inset 0 0 20px 0 #1B2630;
 }
