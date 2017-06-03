@@ -16,7 +16,8 @@ body{
   height: 350px;
   width: 300px;
   font-size: 0;
-  margin: 150px auto;
+  margin: 50vh auto;
+  transform: translateY(-50%);
 }
 #app .input{
   width: 100%;
